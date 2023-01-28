@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    min-height: 100vh;
+    background-image: url('../images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-card,.right-card {
+    text-align: center;
+}
+.left-card p, h1 {
+    margin-bottom: 2rem;
+    color: white;
+}
+.left-card h1 {
+    font-size: 1.6rem; /* 48px */
+    line-height: 2.7rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.left-card p {
+    font-size: 1rem; /* 48px */
+    line-height: 2rem;
+}
+.form-container {
+    background: white;
+    border-radius: 0.8rem;
+    padding: 2.5rem;
+}
+.input-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+.input-text {
+    width: 100%;
+    padding: 1rem 2rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(214, 214, 214);
+    color: hsl(249, 10%, 26%);
+    font-weight: 600;
+}
+.svg {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transform: scale(0.8);
+}
+.input-text:focus {
+    outline: none;
+    border-color: hsl(248, 32%, 49%);
+}
+.input-group.success input {
+    border-color: hsl(154, 59%, 51%);
+}
+.input-group.error input {
+    border-color: hsl(0, 100%, 74%);
+}
+.right-card .error {
+    font-size: 0.6rem;
+    color:hsl(0, 100%, 74%);
+    font-style: italic;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+.btn-try {
+    background: hsl(248, 32%, 49%);
+    width: 100%;
+    padding: 1.2rem 0rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    box-shadow: 0px 8px 1px 0px hsl(0, 0%, 20%, 0.2);
+}
+.span-try {
+    font-weight: 100;
+    font-size: 0.76rem;
+}
+.btn-claim {
+    background: hsl(154, 59%, 51%);
+    width: 100%;
+    padding: 1.2rem 0rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 1px 0px hsl(154, 58%, 40%);
+    margin-bottom: 1.5rem;
+}
+.btn-claim:hover {
+    cursor: pointer;
+    background: hsl(154, 59%, 51%, 0.8);
+    box-shadow: 0px 4px 1px 0px hsl(154, 58%, 40%, 0.8) ;
+}
+.right-card .terms {
+    font-size: 0.62rem;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(246, 25%, 77%);
+}
+.a-terms {
+    color:hsl(0, 100%, 74%);
+    font-weight: 700;
+    text-decoration: none;
+}
+@media(min-width: 540px) {
+    .container {
+        margin-left: 6.2rem;
+        margin-right: 6.2rem;
+        padding: 2.5rem;
+    }
+}
+@media(min-width: 540px) {
+    main {
+        background-image: url('../images/bg-intro-desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+@media(min-width: 540px) {
+    .card {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media(min-width: 540px) {
+    .left-card,.right-card {
+        width: 50%;
+        text-align: left;
+        padding-right: 3rem;
+    }
+}
+@media(min-width: 540px) {
+    .left-card h1 {
+        margin-right: 6rem;
+        margin-left: 0rem;
+        font-size: 2.7rem;
+        line-height: 2.9rem;
+    }
+    .left-card p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+}
+
