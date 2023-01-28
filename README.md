@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/raulblancoq/signupForm.github.io))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com](https://raulblancoq.github.io/signupForm.github.io)
+- Solution URL: https://github.com/raulblancoq/signupForm.github.io
+- Live Site URL: https://raulblancoq.github.io/signupForm.github.io
 
 ## My process
 
