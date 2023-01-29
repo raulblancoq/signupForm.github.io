@@ -13,10 +13,10 @@ form.addEventListener('submit', e => {
 const setError = (element,message) => {
      const inputGroup = element.parentElement;
      const errorDisplay = inputGroup.querySelector('.error');
-     const errorIconDisplay = element.parentElement.children[1];
+     const IconDisplay = inputGroup.querySelector('img');
 
      errorDisplay.innerText = message;
-     errorIconDisplay.style.setProperty('display','block');
+     IconDisplay.setAttribute('src','images/icon-error.svg');
      inputGroup.classList.add('error');
      inputGroup.classList.remove('success');
 };
@@ -24,10 +24,10 @@ const setError = (element,message) => {
 const setSuccess = element => {
      const inputGroup = element.parentElement;
      const errorDisplay = inputGroup.querySelector('.error');
-     const errorIconDisplay = element.parentElement.children[1];
+     const IconDisplay = inputGroup.querySelector('img');
 
      errorDisplay.innerHTML = '';
-     errorIconDisplay.style.setProperty('display','none');
+     IconDisplay.setAttribute('src','images/icon-success.svg');
      inputGroup.classList.add('success');
      inputGroup.classList.remove('error');
 };
