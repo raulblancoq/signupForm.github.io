@@ -29,7 +29,7 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
-  - The `password` field not allow less than 8 chacarters.
+  - The `password` field doesn't allow less than 8 chacarters.
 
 ### Screenshot
 
@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/raulblancoq/signupForm.github.io
+- Live Site URL: https://raulblancoq.github.io/signupForm.github.io
 
 ## My process
 
